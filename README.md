@@ -1,2 +1,2 @@
-# girizgo
+# GirizGo
 GirizGo Link Directory Website
