@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblink Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            font-size: medium;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0; 
+            margin: 0; 
+        }
+        li {
+            margin: 0 0 5px 0;        
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 75px;
+            height: 100px;
+        }
+        .search-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            height: 60px;
+            /* width: 100%; */
+            background-color: #f5f5f5;
+        }
+        input[type=submit] {
+            display: flex;
+            color: #000000;
+            font-size: medium;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background-color: #e2ece8;
+        }
+        input[type=text] {
+            display: flex;
+            color: #000000;
+            font-size: medium;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background-color: #ffffff;
+            width: 250px;
+        }
+        .links-container {
+            display: flex;
+            justify-content: center;
+            align-items:flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 35px;
+        }
+        .link-card {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .link-card a {
+            text-decoration: none;
+            color: #333333;
+        }
+        .link-card img {
+            width: 40px;
+            height: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            /* position: fixed; */
+            bottom: 0;
+            height: 50px;
+            /* width: 100%; */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img height="125px"  src= "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    </div>
+    <form action="https://www.google.com/search" method="get" class="search-box" target="_blank">
+        <input type="text" name="q" /> 
+        &nbsp; &nbsp;
+        <input type="submit" value="Google'da Ara" />
+    </form>
+
+    <div class="links-container">
+        
+        <!-- Category 1 -->
+        <div class="link-card">
+        <ul>
+            <li><a href="https://www.youtube.com/" target="_blank"><img style="vertical-align:middle" src="https://www.youtube.com/favicon.ico" alt="youtube Icon" /> YouTube</a></li>
+            <li><a href="https://www.dailymotion.com/" target="_blank"><img style="vertical-align:middle" src="https://www.dailymotion.com/favicon.ico" alt="dailymotion Icon" /> Dailymotion</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><img style="vertical-align:middle" src="https://www.facebook.com/favicon.ico" alt="facebook Icon" /> Facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img style="vertical-align:middle" src="https://www.instagram.com/favicon.ico" alt="instagram Icon" /> Instagram</a></li>
+            <li><a href="https://www.twitter.com/" target="_blank"><img style="vertical-align:middle" src="https://abs.twimg.com/favicons/twitter.3.ico" alt="twitter Icon" /> Twitter</a></li>
+            <li><a href="https://www.reddit.com/" target="_blank"><img style="vertical-align:middle" src="https://www.reddit.com/favicon.ico" alt="reddit Icon" /> Reddit</a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank"><img style="vertical-align:middle" src="https://web.whatsapp.com/favicon.ico" alt="Whatsapp Web Icon" /> Whatsapp Web</a></li>
+            <li><a href="https://web.telegram.org/" target="_blank"><img style="vertical-align:middle" src="https://web.telegram.org/favicon.ico" alt="telegram Web Icon" /> Telegram Web</a></li>
+            <li><a href="https://www.skype.com/" target="_blank"><img style="vertical-align:middle" src="https://www.skype.com/favicon.ico" alt="skype Icon" /> Skype</a></li>
+            <li><a href="https://mail.google.com/" target="_blank"><img style="vertical-align:middle" src="https://www.google.com/favicon.ico" alt="gmail Icon" /> Gmail</a></li>
+            <li><a href="https://outlook.live.com/" target="_blank"><img style="vertical-align:middle" src="https://outlook.live.com/mail/favicon.ico" alt="hotmail Icon" /> Hotmail & Outlook</a></li>
+            <li><a href="https://mail.yahoo.com/" target="_blank"><img style="vertical-align:middle" src="https://mail.yahoo.com/favicon.ico" alt="yahoo Icon" /> Yahoo Mail</a></li>
+            <li><a href="https://mail.yandex.com/" target="_blank"><img style="vertical-align:middle" src="https://mail.yandex.com/favicon.ico" alt="yandex Icon" /> Yandex Mail</a></li>
+        </ul>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="link-card">
+            <ul>
+                <li><a href="https://www.sahibinden.com/" target="_blank"><img style="vertical-align:middle" src="https://www.sahibinden.com/favicon.ico" alt="sahibinden Icon" /> Sahibinden</a></li>
+                <li><a href="https://www.hepsiemlak.com/" target="_blank"><img style="vertical-align:middle" src="https://www.hepsiemlak.com/favicon.ico" alt="hepsiemlak Icon" /> Hepsi Emlak</a></li>
+                <li><a href="https://www.zignat.com/" target="_blank"><img style="vertical-align:middle" src="https://kq9v7r75.rocketcdn.com/static/img/favicon/apple-touch-icon-76x76.png" alt="zignat Icon" /> Zignat</a></li>
+                <li><a href="https://www.emlakjet.com/" target="_blank"><img style="vertical-align:middle" src="https://www.emlakjet.com/static/img/favicon-green.png" alt="emlakjet Icon" /> Emlakjet</a></li>
+                <li><a href="https://www.amazon.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.amazon.com.tr/favicon.ico" alt="amazon Icon" /> Amazon</a></li>
+                <li><a href="https://www.hepsiburada.com/" target="_blank"><img style="vertical-align:middle" src="https://images.hepsiburada.net/assets/sfstatic/Content/images/favicon-new.ico" alt="hepsiburada Icon" /> Hepsiburada</a></li>
+                <li><a href="https://www.n11.com/" target="_blank"><img style="vertical-align:middle" src="https://n11scdn.akamaized.net/static/favicon.ico" alt="n11 Icon" /> N11</a></li>
+                <li><a href="https://www.trendyol.com/" target="_blank"><img style="vertical-align:middle" src="https://cdn.dsmcdn.com/web/production/favicon.ico" alt="trendyol Icon" /> Trendyol</a></li>
+                <li><a href="https://www.boyner.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://boyner-stook-frontend.mncdn.com/web-public/favicon.ico" alt="boyner Icon" /> Boyner</a></li>
+                <li><a href="https://www.brandroom.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://stn-brandroom.mncdn.com/Content/img/favicon.ico" alt="brandroom Icon" /> Brandroom</a></li>
+            </ul>
+            </div>
+    
+        <!-- Category 3 -->
+        <div class="link-card">
+            <ul>
+                <li><a href="https://www.ntv.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.ntv.com.tr/favicon.ico" alt="ntv Icon" /> NTV</a></li>
+                <li><a href="https://www.cnnturk.com/" target="_blank"><img style="vertical-align:middle" src="https://v6s.cnnturk.com/images/apple-cnn-favicon-60x60.svg?v=azure-20231128.2" alt="cnnturk Icon" /> CNNTürk </a></li>
+                <li><a href="https://www.haberglobal.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://s.haberglobal.com.tr/assets/web/favicons/apple-icon-76x76.png" alt="haberglobal Icon" /> Haberglobal</a></li>
+                <li><a href="https://www.bloomberght.com/" target="_blank"><img style="vertical-align:middle" src="https://www.bloomberght.com/favicon.ico" alt="bloomberght Icon" /> BloombergHT</a></li>
+                <li><a href="https://www.hurriyet.com/" target="_blank"><img style="vertical-align:middle" src="https://s.hurriyet.com.tr/static/images/hurriyet/hurriyet-icons/favicon-144x144.png" alt="hurriyet Web Icon" /> Hürriyet</a></li>
+                <li><a href="https://www.milliyet.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.milliyet.com.tr/favicon.ico" alt="milliyet Icon" /> Milliyet </a></li>
+                <li><a href="https://www.posta.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.posta.com.tr/favicon.ico" alt="posta Icon" /> Posta</a></li>
+                <li><a href="https://www.sabah.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://isbh.tmgrup.com.tr/sbh/site/v3/i/favicon.png" alt="sabah Icon" /> Sabah</a></li>
+                <li><a href="https://www.sozcu.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://i01.sozcucdn.com/wp-content/themes/Sozcu_V4/assets/images/favicon.png" alt="sozcu Icon" /> Sözcü </a></li>
+                <li><a href="https://www.cumhuriyet.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.cumhuriyet.com.tr/Content/images/icons/favicon.ico" alt="cumhuriyet Icon" /> Cumhuriyet</a></li>
+                <li><a href="https://www.ensonhaber.com/" target="_blank"><img style="vertical-align:middle" src="https://www.ensonhaber.com/favicon.ico" alt="ensonhaber Icon" /> EnSonHaber</a></li>
+                <li><a href="https://www.sputniknews.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://cdn1.img.sputniknews.com.tr/i/favicon/favicon-114x114.png" alt="sputnik Icon" /> Sputnik</a></li>
+                <li><a href="https://www.aa.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.aa.com.tr/favicon.ico" alt="aa Icon" /> Anadolu Ajansı</a></li>
+                <li><a href="https://www.dha.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.dha.com.tr/favicon.ico" alt="dha Icon" /> Demiroren Ajansı  </a></li>
+            </ul>
+            </div>
+
+        <!-- Category 4 -->
+        <div class="link-card">
+            <ul>
+                <li><a href="https://www.tcmb.gov.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.tcmb.gov.tr/wps/wcm/connect/219c2f50-025a-4eab-bd7a-93334d6a2180/Favicon_L.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-219c2f50-025a-4eab-bd7a-93334d6a2180-nrp7fSj" alt="merkez Icon" /> Merkez Bankası </a></li>
+                <li><a href="https://www.doviz.com/" target="_blank"><img style="vertical-align:middle" src="https://www.doviz.com/favicon.ico" alt="doviz Icon" /> Döviz </a></li>
+                <li><a href="https://www.ziraatbank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.ziraatbank.com.tr/SiteAssets/images/favicon.ico" alt="zirrat Icon" /> Ziraat Bankası  </a></li>
+                <li><a href="https://www.halkbank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.halkbank.com.tr/favicon.ico" alt="halkbank Icon" /> Halk Bankası  </a></li>
+                <li><a href="https://www.vakifbank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.vakifbank.com.tr/favicon.ico" alt="vakif Icon" /> Vakıflar Bankası  </a></li>
+                <li><a href="https://www.isbank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.isbank.com.tr/StaticFiles/Isbank/images/icons/favicon.ico" alt="is Icon" /> İş Bankası </a></li>
+                <li><a href="https://www.garantibbva.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.garantibbva.com.tr/favicon.ico" alt="garanti Icon" /> Garanti Bankası </a></li>
+                <li><a href="https://www.yapikredi.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.yapikredi.com.tr/favicon.ico" alt="yapikredi Icon" /> Yapı Kredi Bankası </a></li>
+                <li><a href="https://www.akbank.com/" target="_blank"><img style="vertical-align:middle" src="https://www.akbank.com/SiteAssets/img/akbank.ico" alt="akbank Icon" /> AkBank </a></li>
+                <li><a href="https://www.denizbank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.denizbank.com.tr/_assets/img/favicon.ico" alt="denizbank Icon" /> Denizbank </a></li>  
+                <li><a href="https://www.teb.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.teb.com.tr/_assets/img/favicon.ico" alt="teb Icon" /> TEB </a></li>  
+                <li><a href="https://www.sekerbank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.sekerbank.com.tr/icons/favicon.ico" alt="sekerbank Icon" /> Şekerbank </a></li>  
+                <li><a href="https://www.qnbfinansbank.com/" target="_blank"><img style="vertical-align:middle" src="https://www.qnbfinansbank.com/_assets/img/finansbank.gif" alt="qnbfinansbank Icon" /> QNBFinansbank </a></li>
+                <li><a href="https://www.ing.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.ing.com.tr/documents/IngBank/assets/icons/favicon114.png" alt="ing Icon" /> İngbank  </a></li>
+                <li><a href="https://www.hsbc.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.hsbc.com.tr/favicon.ico" alt="hsbc Icon" /> HSBC Bank</a></li>
+                <li><a href="https://www.citibank.com.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.citibank.com.tr/assets/images/favicon.ico" alt="citibank Icon" /> Citibank </a></li>
+            </ul>
+        </div>
+
+        <!-- Category 5 -->
+        <div class="link-card">
+            <ul>
+                <li><a href="https://www.turkiye.gov.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.turkiye.gov.tr/favicon.ico" alt="edevlet Icon" /> Edevlet </a></li>
+                <li><a href="https://www.mhrs.gov.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.mhrs.gov.tr/favicon.ico" alt="mhrs Icon" /> MHRS </a></li>
+                <li><a href="https://www.enabiz.gov.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.enabiz.gov.tr/favicon.ico" alt="enabiz Icon" /> ENabız  </a></li>
+                <li><a href="https://www.mgm.gov.tr/" target="_blank"><img style="vertical-align:middle" src="https://www.mgm.gov.tr/favicon.ico" alt="hava Icon" /> Hava Durumu  </a></li>
+                <li><a href="https://uym.ibb.gov.tr/" target="_blank"><img style="vertical-align:middle" src="https://uym.ibb.gov.tr/tkmwebcontent/images/logos/favicon30f4.ico?v3" alt="ibb trafik Icon" /> IBB Trafik  </a></li>
+                <li><a href="https://www.google.com/maps/" target="_blank"><img style="vertical-align:middle" src="https://www.google.com/maps/favicon.ico" alt="hava Icon" /> Google Maps </a></li>
+
+            </ul>
+        </div>
+
+        <!-- Additional categories -->
+        <!-- Add more links in similar fashion -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 GirizGO.com | All trademarks, logos, brands are the property of their respective owners.</p>
+    </footer>
+</body>
+</html>
